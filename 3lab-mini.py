@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from logic import mean_fare 
 
+
 df = pd.read_csv("titanic.csv", sep=",")
 
 box_options = {"Шебурн": "S", "Квинстаун": "Q", "Саутгемптон": "C"}
